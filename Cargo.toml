@@ -2,10 +2,19 @@
 name = "coldbrew"
 version = "0.1.0"
 edition = "2024"
+description = "Package manager and build tool for the Lotus programming language."
+license = "Apache-2.0"
+authors = ["Neo Mannskär neo@mannskar.com"]
+readme = "README.md"
+repository = "https://github.com/neomannskar/coldbrew"
+homepage = "https://lotuslang.com/coldbrew"
+documentation = "https://docs.rs/coldbrew"
+keywords = ["lotus", "build-tool", "package-manager"]
+categories = ["development-tools::build-utils", "command-line-utilities"]
 
 [dependencies]
 clap = { version = "4.5.41", features = ["derive"] }
-colored = "3.0.0"
 serde = { version = "1.0.219", features = ["derive"] }
-toml = "0.9.2"
 toml_edit = "0.23.2"
+colored = "3.0.0"
+toml = "0.9.2"
